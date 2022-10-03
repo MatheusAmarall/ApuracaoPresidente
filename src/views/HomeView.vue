@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="../assets/urna.jpg" class="pic">
+    <HelloWorld msg="Apuração eleições presidenciais"/>
   </div>
 </template>
 
@@ -16,3 +16,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .pic {
+    width: 300px;
+    height: 200px;
+  }
+</style>
